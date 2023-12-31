@@ -15,7 +15,7 @@ module.exports = {
       estudante_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
-        references: { model: 'pessoas', key: 'id' }
+        references: { model: 'estudantes', key: 'id' }
       },
       curso_id: {
         allowNull: false,
