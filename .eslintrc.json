@@ -16,7 +16,8 @@
     ],
     "linebreak-style": [
       "error",
-      "unix"
+      "unix",
+      "0"
     ],
     "quotes": [
       "error",
