@@ -8,7 +8,6 @@ module.exports = (sequelize, DataTypes) => {
       Pessoa.hasMany(models.Curso, {
         foreignKey: 'docente_id'
       });
-
       Pessoa.hasMany(models.Matricula, {
         foreignKey: 'estudante_id'
       });
@@ -23,7 +22,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Pessoa',
-    tableName: 'pessoas'
   });
   return Pessoa;
 };
